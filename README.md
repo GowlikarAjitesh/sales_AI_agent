@@ -1,23 +1,31 @@
 # Sales Insight Agent
 
 This project provides a natural-language sales analytics assistant using:
-- Sales API
-- LLM (Google Gemini 2.5 flash)
-- CLI interface
+- Sales API  
+- LLM (Google Gemini 2.5 Flash)  
+- CLI interface  
 
 ## Setup
 
 ```bash
 python -m venv venv
-source venv/Scripts/activate   # Windows Git Bash
+source venv/Scripts/activate    # Windows Git Bash
 pip install -r requirements.txt
+```
 
+## Environment Variable
 
-###Environmental variable
-generate the google gemini api key and add your key in .env file
+Generate a Google Gemini API key and add it to your `.env` file:
 
-Hurry!!! project is ready..
+```
+GOOGLE_API_KEY=your_api_key_here
+```
 
-give your prompts and our AI sales agent will reply.
+## Run the Project
 
+Your project is ready.  
+Give your prompts and the AI Sales Agent will reply with insights.
 
+```
+python run.py
+```
