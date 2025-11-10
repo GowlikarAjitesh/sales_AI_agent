@@ -40,14 +40,6 @@ python run.py
 
 ## Design Decisions
 
-#### - **LLM + Math Chain:** Used Gemini 2.5 Flash for natural language understanding and LLMMathChain (LangChain) to safely execute computed expressions from LLM output.
-#### - **Mock Sales API:** Implemented a lightweight in-memory database (sales_data.py) simulating real API latency and structure for rapid prototyping.
-#### - **CLI-First Interface:** Prioritized terminal interaction for quick iteration and debugging; GUI/web layer can be added later.
-#### - **Structured Prompt Templates:** Used few-shot prompting with role ("You are a senior sales analyst") to improve response consistency.
-#### - **Error Handling & Fallbacks:** If math parsing fails, agent asks clarifying questions instead of crashing.
-
-## Design Decisions
-
 #### - LLM + Math Chain: Used Gemini 2.5 Flash for natural language understanding and LLMMathChain (LangChain) to safely execute computed expressions from LLM output.
 #### - Mock Sales API: Implemented a lightweight in-memory database (sales_data.py) simulating real API latency and structure for rapid prototyping.
 #### - CLI-First Interface: Prioritized terminal interaction for quick iteration and debugging; GUI/web layer can be added later.
