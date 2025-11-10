@@ -1,8 +1,8 @@
-# Sales Insight Agent
+# Sales Insight AI Agent
 
 This project provides a natural-language sales analytics assistant using:
 - Sales API  
-- LLM (Google Gemini 2.5 Flash)  
+- LLM (Google Gemini 2.5 Flash)  + LLM Math modules
 - CLI interface  
 
 ## Setup
